@@ -2,3 +2,7 @@ app：整个项目的入口 用于测试注解框架
 app.annotation：主要用于申明app所有使用的UI注解
 app.api：用于申明UI注解框架的api
 app.complier：用于在编译期间通过反射机制自动生成代码
+
+从网上学了一些关于compiler的知识，别人不开源，我开源，反正都是学习的。
+运行了一个可运行的项目，用到了google的autoservice和javapoet，
+实现代码的自动生成，模仿实现的Jake Wharton大神的ButterKnife
