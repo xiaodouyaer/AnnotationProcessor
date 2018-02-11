@@ -1,0 +1,4 @@
+app：整个项目的入口 用于测试注解框架
+app.annotation：主要用于申明app所有使用的UI注解
+app.api：用于申明UI注解框架的api
+app.complier：用于在编译期间通过反射机制自动生成代码
